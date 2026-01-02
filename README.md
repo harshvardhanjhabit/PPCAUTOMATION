@@ -31,3 +31,20 @@ The **class field** is currently **hardcoded in the script**.
 ```python
 # Change this line to your desired class
 Select(driver.find_element(By.ID, "class")).select_by_visible_text("12")
+
+
+
+Got it! Here’s a clean Excel template you can use as a starting point:
+
+first_name	last_name	email	mobile	gender	dob	parent_name	question
+							
+							
+							
+
+Notes for the template:
+
+Fill each row with one student’s details.
+
+Leave question empty if you want the script to add a random studies-related question.
+
+Keep column headers exactly as above.
